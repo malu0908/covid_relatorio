@@ -25,7 +25,7 @@ CENTER_LAT, CENTER_LON = -14.272572694355336, -51.25567404158474
 df_states = pd.read_csv("df_states.csv")
 df_brasil = pd.read_csv("df_brasil.csv")
 
-token = open(".mapbox_token").read()
+# token = open(".mapbox_token").read()
 brazil_states = json.load(open("geojson/brazil_geo.json", "r"))
 
 brazil_states["features"][0].keys()
